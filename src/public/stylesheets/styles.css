@@ -1,0 +1,67 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(255, 241, 241);
+}
+
+a {
+  color: #548ca2;
+}
+
+a:link {
+  text-decoration: none;
+  cursor: default;
+}
+.linkContain {
+  display: flex;
+  font-size: xx-large;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+}
+
+li {
+  list-style: none;
+}
+
+.move {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.allP {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  border-radius: 2px;
+  border-style: solid, black;
+}
+
+.contain {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.containment {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  gap: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.petName {
+  font-weight: bold;
+}

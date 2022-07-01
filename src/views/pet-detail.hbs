@@ -1,0 +1,9 @@
+{{#with foundPet}}
+  <h1>{{name}} </h1>
+  <p>{{description}}</p>
+  <div>
+    <img class="images" src={{photo}} alt="pet" />
+    <form action="/pets" method="GET">  <button type="submit">Go Back</button></form>
+
+{{/with}}
+

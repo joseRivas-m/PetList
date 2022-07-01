@@ -1,0 +1,25 @@
+<h1 class="title">List of Pets</h1>
+<ul>
+  <div class="contain">
+    {{#each petList}}
+      <div class="move">
+        <li>
+
+          <img class="allP" src={{photo}} alt="photo" />
+
+          <div class="containment">
+            <p class="petName"> {{name}}</p>
+
+            <a href="/pets/{{petId}}">View Details</a>
+            <a href="/pets/edit/{{petId}}">Edit Details</a>
+            <form action="/pets/delete/{{petId}}" method="POST">
+              <button type="submit">Delete Pet</button>
+            </form>
+          </div>
+
+        </li>
+      </div>
+    {{/each}}
+  </div>
+  <a class="linkContain" href="/pets/add">Add New Pet</a>
+</ul>
